@@ -1,0 +1,51 @@
+section{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    left: 0;
+    top: 0;
+    animation:testOne;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes testOne {
+    0%{
+        width: 100px;
+        height: 100px;
+        background: red;
+    }
+    25%{
+        width: 100px;
+        height: 100px;
+        background: green;
+        border-radius: 100%;
+        top: 0;
+        left: 300px;
+    }
+    50%{
+        width: 100px;
+        height: 100px;
+        background: green;
+        border-radius: 100%;
+        left: 300px;
+        top: 300px;
+    }
+    75%{
+        width: 100px;
+        height: 100px;
+        background: green;
+        border-radius: 100%;
+        top: 300px;
+        left: 0;
+    }
+    100%{
+        width: 100px;
+        height: 100px;
+        background: green;
+        border-radius: 100%;
+        top: 0;
+        left: 0;
+    }
+}
