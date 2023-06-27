@@ -438,3 +438,130 @@ div.Six div.conatact-box-2  h2{
     left: 240px;
     top: 450px;
  }
+  @media all and (max-width: 769px){
+    section > div  {
+        top: 0px;
+        position: relative;
+        float: right;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    section div.upperLink{
+        width: 550px;
+        height: 60px;
+       
+        position: absolute;
+       right: 108px;
+       margin-top: 1px;
+        
+    }
+    section div.upperLink li{
+        font-size: 16px;
+        padding: 4px;
+        color: aliceblue;
+    }
+    
+    section{
+        position: relative;
+        width: 769px;
+        height: 750px;
+    }
+
+    div.Sec{
+        width: 769px;
+    }
+    div.Sec div.box img{
+        position: absolute;
+        width: 130px;
+        height: 130px;
+        top: 540px;
+    }
+    div.Sec div.box img:nth-child(1){
+        left: 60px;
+    }
+    div.Sec div.box img:nth-child(2){
+        left: 330px;
+    }
+    div.Sec div.box img:nth-child(3){
+        left: 600px;
+    }
+    div.Sec h3{
+        top: 370px;
+        left: 280px;
+        
+    }
+    div.Sec h5{
+        top: 430px;
+        left: 248px;
+    }
+    div.Sec h2{
+        top:60px;
+        left: 10px;
+        margin-left: 50px;
+    }
+    div.Sec h4{
+        top:190px;
+        left: 10px;
+        margin-left: 50px;
+       
+    }
+    div.Third .mobi{
+        top:85px;
+        right: 10px;
+        margin-right: 0px;
+    }
+    div.Third{
+        width: 769px;
+        }
+        
+        div.Third .web img{
+            top:750px;
+            right: 50px;
+            width: 260px;
+            height: 260px;
+        }
+        div.Third .mobi img{
+            top:150px;
+            right: 50px;
+            width: 260px;
+            height: 260px;
+        }
+        div.Third .stand img{
+            top:450px;
+            left: 50px;
+            width: 260px;
+            height: 260px;
+        }
+        div.Fouth{
+            width: 769px;
+            }
+        div.Fouth div.lan{
+            top: 80px;
+            left: 480px;
+        }
+        div.Fouth div.tec{
+            top: 390px;
+            left: 45px;
+        }
+        div.Fouth div.data{
+            top: 390px;
+            left: 480px;
+        }
+
+
+
+
+}
+ @media all and (max-width: 425px){
+
+    section > div  {
+        top: 0px;
+        position: relative;
+        float: left;
+        margin-top: 10px;
+        margin-left: 45px;
+    }
+    section div.upperLink{
+     display: none;   
+    }
+}
